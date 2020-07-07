@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue-Regular.otf');
+}
+
+@font-face {
+    font-family:'Playfair';
+    src:url("PlayfairDisplay-Regular.ttf");
+}
+
+body
+{
+    background: url('asset/salon1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #19180A;
+    font-family: 'BebasNeue';
+    font-size: 150%;
+    position: relative;
+}
+
+h5
+{
+	font-family: 'BebasNeue';
+    font-size: 150%;
+    margin-bottom: 1em;
+	
+}
+
+h3
+{
+    font-family: 'Playfair';
+    color: #19180A;
+    font-size: 150%;
+}
+
+a
+{
+    color: #fffed1;//yellow
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+a:hover
+{
+    color: white;
+}
+
+a:active
+{
+    color: #fffed1;
+}
+
+a:after
+{
+    color: #fffed1;
+}
+
+.container-lg
+{
+    background-color: rgba(252,247,248,0.85);
+}
+
+.jumbotron
+{
+    background-color: black;
+    width: 700px;
+    color: #FCF7F8;
+}
+
+
+
+form
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#home
+{
+    height: 700px;
+    background-color: rgba(252,247,248,0.0);
+    padding-top: 4em;
+    padding-bottom: 3em;
+    line-height: 550px;
+    text-align: center;
+}
+
+#hometxt
+{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+#homeh3
+{
+    font-size: 5em;
+    color: #4a4a4a;//darkgray
+}
+
+.navbar
+{
+    background-color: #19190A;
+}
+
+.nav-item
+{
+    color: #fffed1;;
+    vertical-align: middle;
+}
+
+#logo
+{
+    width: 70px;
+}
+.card-img-top .team
+{
+    width: 350px;
+    height: 350px;
+}
+
+.card-title
+{
+    font-size: 150%;
+    color: #c43727; //red
+}
+
+.logo{
+	width: 30px;
+}
+.members
+{
+    align-content: center;
+}
+
+
+
+#services
+{
+    background-image: white;
+    background-size: cover;
+}
+
+.card-deck
+{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#hometxt
+{
+    vertical-align: center;
+}
+
+
+.btn
+{
+    background-color: #bfbcb8;
+    color: white;
+    font-size: 100%;
+}
+
+.btn:active
+{
+    background-color: #bfbcb8;
+}
+
+.btn:hover
+{
+    background-color: #fffed1;
+}
+
+.btn::after
+{
+    background-color: #c43727;
+}
+
+#map{
+	align-content: right;
+}
+footer
+{
+    font-size: 50%;
+    color: #fa624d;
+    text-align: center;
+}
